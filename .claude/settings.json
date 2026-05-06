@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(terraform *)",
+      "Bash(ansible *)",
+      "Bash(ansible-playbook *)",
+      "Bash(docker *)",
+      "Bash(kubectl *)",
+      "Bash(gh *)",
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(tree *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)*",
+      "Bash(sudo rm -rf *)"
+    ]
+  }
+}
